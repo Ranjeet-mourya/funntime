@@ -1,0 +1,46 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #000;
+    overflow-x:hidden ;
+}
+
+
+header {
+    nav{
+        .navbar-brand{
+            h2{
+                color: #D81F26;
+            }
+            img{
+                max-width: 100px;
+            }
+        }
+        ul{
+            li{
+                .nav-link{
+                    color: #D81F26;
+                    &:hover,&:focus-visible,&:focus{
+                        color: #D81F26;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+.contain{
+    button{
+        // width: 100%;
+        background-color: #D81F26;
+        color: #fff;
+    }
+}
